@@ -1,0 +1,35 @@
+.imagem {
+
+    height: 100vh;
+    background-image: url("Principal.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex ;
+}
+
+.caixa{
+    height:750px;
+    width: 550px;
+    background-color: black;
+    margin: auto;
+    justify-content: center;
+    opacity: 0.75;
+    
+}
+
+.caixa h1{
+    
+    display: flex;
+    padding: 50px;
+    color:white;
+    margin-left: 125px;
+    margin-top: 50px;
+    font-size: 30px;
+}
+.nome{
+
+    color: white;
+    display: flex;
+    font-size: 30px;
+}
+
