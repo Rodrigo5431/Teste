@@ -5,6 +5,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     display: flex ;
+    
 }
 
 .caixa{
@@ -13,7 +14,8 @@
     background-color: black;
     margin: auto;
     justify-content: center;
-    opacity: 0.75;
+    opacity: 0.85;
+    gap: ;
     
 }
 
@@ -23,8 +25,9 @@
     padding: 50px;
     color:white;
     margin-left: 125px;
-    margin-top: 50px;
+    margin-top: 40px;
     font-size: 30px;
+    letter-spacing: 2px;
 }
 .nome{
 
@@ -33,3 +36,47 @@
     font-size: 30px;
 }
 
+.formulario_item{
+
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    
+}
+
+#formulario{
+    width: 300px;
+}
+
+label{
+    color: white;
+}
+
+input{
+    background-color: black;
+}
+
+.email{
+    color: white;
+    display: flex;
+    font-size: 30px;
+}
+
+.senha{
+    color: white;
+    display: flex;
+    font-size: 30px;
+}
+
+.senhconfirme{
+    color: white;
+    display: flex;
+    font-size: 30px;
+}
+
+.botoes{
+    
+    display: flex;
+    margin-top: 20px;
+    height: 40px;
+}
