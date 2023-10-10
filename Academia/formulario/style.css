@@ -36,13 +36,6 @@
     font-size: 30px;
 }
 
-.formulario_item{
-
-    display: flex;
-    flex-direction: column;
-    gap: 5px;
-    
-}
 
 #formulario{
     width: 300px;
@@ -50,28 +43,31 @@
 
 label{
     color: white;
+    font-size: 15px;
+    
 }
 
-input{
+    .nome{
     background-color: black;
+    font-size: 25px;
 }
 
 .email{
-    color: white;
+    background-color: black;
     display: flex;
-    font-size: 30px;
+    font-size: 25px;
 }
 
 .senha{
-    color: white;
+    background-color: black;
     display: flex;
-    font-size: 30px;
+    font-size: 25px;
 }
 
-.senhconfirme{
-    color: white;
+.confirma{
+    background-color: black;
     display: flex;
-    font-size: 30px;
+    font-size: 25px;
 }
 
 .botoes{
@@ -79,4 +75,9 @@ input{
     display: flex;
     margin-top: 20px;
     height: 40px;
+}
+
+input{
+    margin-bottom: 10px;
+
 }
